@@ -1,196 +1,581 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
 
-<head>
+    <!--====== Title ======-->
+    <title>FameUX - Delivering Excellence In IT Service and Consulting</title>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>FameUX</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <script>
-        document.documentElement.classList.remove('no-js');
-        document.documentElement.classList.add('js');
-    </script>
+    <!--====== Favicon Icon ======-->
+    <link
+      rel="shortcut icon"
+      href="assets/images/FAME.ico"
+      type="image/ico"
+    />
 
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/vendor.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css" />
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="logo.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="logo.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="logo.png">
-    <link rel="manifest" href="site.webmanifest">
+    <!--====== Magnific Popup CSS ======-->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
 
-</head>
+    <!--====== Slick CSS ======-->
+    <link rel="stylesheet" href="assets/css/slick.css" />
 
-<body id="top" class="theme-particles">
+    <!--====== Line Icons CSS ======-->
+    <link rel="stylesheet" href="assets/css/LineIcons.css" />
 
+    <!--====== Font Awesome CSS ======-->
+    <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader"></div>
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css" />
+
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+
+  <body>
+    <!--[if IE]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!--====== PRELOADER PART START ======-->
+
+    <div class="preloader">
+      <div class="loader">
+        <div class="ytp-spinner">
+          <div class="ytp-spinner-container">
+            <div class="ytp-spinner-rotator">
+              <div class="ytp-spinner-left">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+              <div class="ytp-spinner-right">
+                <div class="ytp-spinner-circle"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
 
+    <!--====== PRELOADER PART ENDS ======-->
 
-    <!-- page wrap
-    ================================================== -->
-    <div class="s-pagewrap">
+    <!--====== HEADER PART START ======-->
 
+    <header class="header-area">
+      <div class="navbar-area">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              <nav class="navbar navbar-expand-lg">
+                <a class="navbar-brand" href="index.html">
+                  <img src="assets/images/logo.png" alt="Logo" />
+                </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                  <span class="toggler-icon"></span>
+                </button>
 
-        <!-- # header
-        ================================================== -->
-        <header class="s-header">
-            <div class="row s-header__content">
-
-                <div class="s-header__logo">
-                    <a class="logo" href="index-particles.html">
-                        <img src="images/logo.png" alt="Homepage">
-                    </a>
+                <div
+                  class="collapse navbar-collapse sub-menu-bar"
+                  id="navbarSupportedContent"
+                >
+                  <ul id="nav" class="navbar-nav ml-auto">
+                    <!-- <li class="nav-item active">
+                      <a class="page-scroll" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#facts">Why</a>
+                    </li> -->
+                    <li class="nav-item">
+                      <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                  </ul>
                 </div>
-
-
-            </div> <!-- end s-header__content -->
-        </header> <!-- end s-header -->
-
-
-        <!-- # intro 
-        ================================================== -->
-        <section id="intro" class="s-intro">
-
-            <div id="particles-js" class="s-intro__particles"></div>
-
-            <div class="row s-intro__content">
-                <div class="column lg-12">
-
-                    <div class="counter">
-                        <div class="counter__time">
-                            <span class="ss-days">8</span>
-                            <span>days</span>
-                        </div>
-                        <div class="counter__time">
-                            <span class="ss-hours">00</span>
-                            <span>hours</span>
-                        </div>
-                        <div class="counter__time minutes">
-                            <span class="ss-minutes">00</span>
-                            <span>mins</span>
-                        </div>
-                        <div class="counter__time">
-                            <span class="ss-seconds">00</span>
-                            <span>secs</span>
-                        </div>
-                    </div> <!-- end counter -->
-
-                    <div class="s-intro__content-bottom">
-                        <h1 class="s-intro__content-title">Our site is launching soon.</h1>
-                       
-                    </div>
-
-                </div>
-
-                <div class="s-intro__scroll">
-                    <p class="scroll-text">Scroll For More</p>
-                    <a href="#info" class="smoothscroll">
-                        <div class="mouse"></div>
-                    </a>
-                    <div class="end-top"></div>
-                </div> <!-- end s-intro__scroll -->
-
-            </div> <!-- intro__content -->
-
-        </section> <!-- end s-intro -->
-
-
-        <!-- # info
-        ================================================== -->
-        <section id="info" class="s-info">
-
-            <div class="s-info__bg"></div>
-
-
-        </section> <!-- end s-info -->
-
-
-        <!-- # footer
-        ================================================== -->
-        <footer class="s-footer">
-
-            <div class="row s-footer__top">
-
-                <div class="column lg-6 stack-on-700 s-footer__block s-footer__info">
-
-                    <h4 class="h6">FameUX</h4>
-
-                </div> <!-- end s-footer__info -->
-
-                <div class="column lg-6 stack-on-700 s-footer__block s-footer__contact">
-
-                    <h4 class="h6">Contact Info</h4>
-
-                    <div class="row">
-                        <div class="column lg-6 stack-on-1000">
-                            <p>
-                                <strong>Phone</strong> <br>
-                                <a href="tel:123-456-9000">+917600681961</a>
-                            </p>
-                        </div>
-                        <div class="column lg-6 stack-on-1000">
-                            <p>
-                                <strong>Email</strong> <br>
-                                <a href="mailto:#0">admin@fameux.in</a>
-                            </p>
-                        </div>
-                    </div>
-
-                    <p>
-                        <strong>Office Address</strong> <br>
-                        425-426, Tulsi Arcade, Near Sudama chowk <br>
-                        Mota Varachha, Surat.
-                        394101 IN <br>
-                    </p>
-
-                </div> <!-- end s-footer__contact -->
-
-            </div> <!-- end s-footer__top -->
-
-            <div class="row s-footer__bottom">
-                <div class="column lg-12">
-                    <div class="ss-copyright">
-                        <span>© Copyright FameUX 2022</span>
-                        <span>Design by <a href="">FameUX</a></span>
-                    </div>
-                </div>
-
-                <div class="ss-go-top">
-                    <a class="smoothscroll" title="Back to Top" href="#top">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
-                            style="fill:rgba(0, 0, 0, 1);transform:;-ms-filter:">
-                            <path d="M6 4H18V6H6zM11 14L11 20 13 20 13 14 18 14 12 8 6 14z"></path>
-                        </svg>
-                    </a>
-                </div>
+                <!-- navbar collapse -->
+              </nav>
+              <!-- navbar -->
             </div>
-            <!--end s-footer__bottom -->
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+      </div>
+      <!-- navbar area -->
 
-        </footer>
-        <!--end s-footer -->
+      <div
+        id="home"
+        class="header-hero bg_cover"
+        style="background-image: url(assets/images/banner-bg.svg)"
+      >
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="header-hero-content text-center">
+                <h3
+                  class="header-sub-title wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.2s"
+                >
+                  Connecting People And Technology
+                </h3>
+                <h2
+                  class="header-title wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.5s"
+                >
+                  IT Services and IT Consulting
+                </h2>
+                <p
+                  class="text wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="0.8s"
+                >
+                Are you looking to take your business to the next level? Reach out to FameUX and let us help! We are a result-driven technology services firm that partners with businesses to help them achieve their desired outcomes. We have a custom agile approach which enables us to work with you at every stage.
+                </p>
+                <!-- <a
+                  href="#"
+                  class="main-btn wow fadeInUp"
+                  data-wow-duration="1.3s"
+                  data-wow-delay="1.1s"
+                  >Get Started</a
+                > -->
+              </div>
+              <!-- header hero content -->
+            </div>
+          </div>
+          <!-- row -->
+          <div class="row">
+            <div class="col-lg-12">
+              <div
+                class="header-hero-image text-center wow fadeIn"
+                data-wow-duration="1.3s"
+                data-wow-delay="1.4s"
+              >
+                <img src="assets/images/header-hero.png" alt="hero" />
+              </div>
+              <!-- header hero image -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- container -->
+        <div id="particles-1" class="particles"></div>
+      </div>
+      <!-- header hero -->
+    </header>
 
-    </div> <!-- end pagewrap -->
+    <!--====== HEADER PART ENDS ======-->
 
+    <!--====== BRAMD PART START ======-->
 
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-    <script src="js/particles.min.js"></script>
-    <script src="js/particle-settings.js"></script>
+    <div class="brand-area pt-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div
+              class="brand-logo d-flex align-items-center justify-content-center justify-content-md-between"
+            >
+              <div
+                class="single-logo mt-30 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <img src="assets/images/brand-1.png" alt="brand" />
+              </div>
+              <!-- single logo -->
+              <div
+                class="single-logo mt-30 wow fadeIn"
+                data-wow-duration="1.5s"
+                data-wow-delay="0.2s"
+              >
+                <img src="assets/images/brand-2.png" alt="brand" />
+              </div>
+              <!-- single logo -->
+              <div
+                class="single-logo mt-30 wow fadeIn"
+                data-wow-duration="1.5s"
+                data-wow-delay="0.3s"
+              >
+                <img src="assets/images/brand-3.png" alt="brand" />
+              </div>
+              <!-- single logo -->
+              <div
+                class="single-logo mt-30 wow fadeIn"
+                data-wow-duration="1.5s"
+                data-wow-delay="0.4s"
+              >
+                <img src="assets/images/brand-4.png" alt="brand" />
+              </div>
+              <!-- single logo -->
+              <div
+                class="single-logo mt-30 wow fadeIn"
+                data-wow-duration="1.5s"
+                data-wow-delay="0.5s"
+              >
+                <img src="assets/images/brand-5.png" alt="brand" />
+              </div>
+              <!-- single logo -->
+            </div>
+            <!-- brand logo -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
 
-</body>
+    <!--====== BRAMD PART ENDS ======-->
 
+    <!--====== SERVICES PART START ======-->
+
+    <section id="features" class="services-area pt-120">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+            <div class="section-title text-center pb-40">
+              <div class="line m-auto"></div>
+              <h3 class="title">
+                Clean and simple design,
+                <span> Comes with everything you need to get started!</span>
+              </h3>
+            </div>
+            <!-- section title -->
+          </div>
+        </div>
+        <!-- row -->
+        <div class="row justify-content-center">
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-services text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.2s"
+            >
+              <div class="services-icon">
+                <img
+                  class="shape"
+                  src="assets/images/services-shape.svg"
+                  alt="shape"
+                />
+                <img
+                  class="shape-1"
+                  src="assets/images/services-shape-1.svg"
+                  alt="shape"
+                />
+                <i class="lni-baloon"></i>
+              </div>
+              <div class="services-content mt-30">
+                <h4 class="services-title">
+                  <a href="#">Custom Support</a>
+                </h4>
+                <p class="text">
+                  FameUX is a company that provides digital design and front-end development services. We work with companies who want to create amazing user experiences, whether it be for their website, app, or product. We're passionate about designing and building beautiful, intuitive interfaces that make people's lives easier. Our team is made up of talented designers and developers from all over the world, and we're constantly striving to learn new things and push the envelope when it comes to web and mobile design.
+
+                  We exist to support our clients in achieving their business goals. We do this by creating beautiful and effective user experiences that are tailored to their specific needs.
+                </p>
+                <!-- <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-services text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.5s"
+            >
+              <div class="services-icon">
+                <img
+                  class="shape"
+                  src="assets/images/services-shape.svg"
+                  alt="shape"
+                />
+                <img
+                  class="shape-1"
+                  src="assets/images/services-shape-2.svg"
+                  alt="shape"
+                />
+                <i class="lni-cog"></i>
+              </div>
+              <div class="services-content mt-30">
+                <h4 class="services-title"><a href="#">Development</a></h4>
+                <p class="text">
+                  FameUX is a technology company that specializes in developing services based on JavaScript, ReactJS, NodeJS, AWS, ReactNative, IOS, Android, and Cloud technologies. We are a young company with a lot of energy and enthusiasm for developing innovative solutions that make people's lives easier. We are passionate about making great user experiences and believe that well- designed software can change the world. We are a distributed company with team members located all over the world. Our head office is in Gujarat, India.
+                </p>
+                <!-- <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+          <div class="col-lg-4 col-md-7 col-sm-8">
+            <div
+              class="single-services text-center mt-30 wow fadeIn"
+              data-wow-duration="1s"
+              data-wow-delay="0.8s"
+            >
+              <div class="services-icon">
+                <img
+                  class="shape"
+                  src="assets/images/services-shape.svg"
+                  alt="shape"
+                />
+                <img
+                  class="shape-1"
+                  src="assets/images/services-shape-3.svg"
+                  alt="shape"
+                />
+                <i class="lni-bolt-alt"></i>
+              </div>
+              <div class="services-content mt-30">
+                <h4 class="services-title"><a href="#">Our Services</a></h4>
+                <p class="text">
+                  We are a technology company that specializes in providing services on the latest technologies such as Javascript, ReactJS, NodeJS, AWS, ReactNative. We work with some of the world's biggest brands and help them create amazing customer experiences across all channels - web, mobile, and beyond. Our team is made up of talented engineers and designers who are passionate about building elegant solutions that solve real-world problems. We love using the latest technologies and tools to create mind-blowing experiences for our clients and their customers.
+                </p>
+                <!-- <a class="more" href="#"
+                  >Learn More <i class="lni-chevron-right"></i
+                ></a> -->
+              </div>
+            </div>
+            <!-- single services -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </section>
+
+    <!--====== SERVICES PART ENDS ======-->
+
+    <!--====== ABOUT PART START ======-->
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== ABOUT PART ENDS ======-->
+
+    <!--====== VIDEO COUNTER PART START ======-->
+
+    <!--====== VIDEO COUNTER PART ENDS ======-->
+
+    <!--====== TESTIMONIAL PART START ======-->
+
+    <!--====== TESTIMONIAL PART ENDS ======-->
+
+    <!--====== FOOTER PART START ======-->
+
+    <footer id="contact" class="footer-area pt-120">
+      <div class="container">
+        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay="0.5s">
+          <div class="subscribe-area row">
+            <div class="col-lg-6">
+              <!-- <div class="subscribe-content mt-45">
+                <h2 class="subscribe-title">
+                  Subscribe Our Newsletter <span>get reguler updates</span>
+                </h2>
+              </div> -->
+            </div>
+            <div class="col-lg-6">
+              <div class="subscribe-form mt-50">
+                <!-- <form action="#">
+                  <input type="text" placeholder="Enter eamil" />
+                  <button class="main-btn">Subscribe</button>
+                </form> -->
+              </div>
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- subscribe area -->
+        <div class="footer-widget pb-100">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-8">
+              <div
+                class="footer-about mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.2s"
+              >
+                <a class="logo" href="#">
+                  <img src="assets/images/logo-down.png" alt="logo" />
+                </a>
+                <p class="text">
+                  We deliver web and mobile app development services to global
+                  businesses since 2019, with 100% project delivery success.
+                </p>
+                <ul class="social">
+                  <!-- <li>
+                    <a href="#"><i class="lni-facebook-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni-twitter-filled"></i></a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="lni-instagram-filled"></i></a>
+                  </li> -->
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/company/fameux-technologies/"
+                      target="_blank"
+                      ><i class="lni-linkedin-original"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <!-- footer about -->
+            </div>
+            <div class="col-lg-5 col-md-7 col-sm-7">
+              <div class="footer-link d-flex mt-50 justify-content-md-between">
+                <!-- <div
+                  class="link-wrapper wow fadeIn"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.4s"
+                >
+                  <div class="footer-title">
+                    <h4 class="title">Quick Link</h4>
+                  </div>
+                  <ul class="link">
+                    <li><a href="#">Road Map</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Pricing</a></li>
+                  </ul>
+                </div> -->
+                <!-- footer wrapper -->
+                <!-- <div
+                  class="link-wrapper wow fadeIn"
+                  data-wow-duration="1s"
+                  data-wow-delay="0.6s"
+                >
+                  <div class="footer-title">
+                    <h4 class="title">Resources</h4>
+                  </div>
+                  <ul class="link">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Page</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                  </ul>
+                </div> -->
+                <!-- footer wrapper -->
+              </div>
+              <!-- footer link -->
+            </div>
+            <div class="col-lg-3 col-md-5 col-sm-5">
+              <div
+                class="footer-contact mt-50 wow fadeIn"
+                data-wow-duration="1s"
+                data-wow-delay="0.8s"
+              >
+                <div class="footer-title">
+                  <h4 class="title">Contact Us</h4>
+                </div>
+                <ul class="contact">
+                  <li>+91 7600681961</li>
+                  <li>admin@fameux.in</li>
+                  <li>
+                    704, APMC Market(Krushi bazar), Near. Sahar darwaja, Ring road, Surat, GJ, IN.
+                  </li>
+                </ul>
+              </div>
+              <!-- footer contact -->
+            </div>
+          </div>
+          <!-- row -->
+        </div>
+        <!-- footer widget -->
+        <div class="footer-copyright"></div>
+        <!-- footer copyright -->
+      </div>
+      <!-- container -->
+      <div id="particles-2"></div>
+    </footer>
+
+    <!--====== FOOTER PART ENDS ======-->
+
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+
+    <!--====== PART START ======-->
+
+    <!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-"></div>
+            </div>
+        </div>
+    </section>
+-->
+
+    <!--====== PART ENDS ======-->
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!--====== Plugins js ======-->
+    <script src="assets/js/plugins.js"></script>
+
+    <!--====== Slick js ======-->
+    <script src="assets/js/slick.min.js"></script>
+
+    <!--====== Ajax Contact js ======-->
+    <script src="assets/js/ajax-contact.js"></script>
+
+    <!--====== Counter Up js ======-->
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <!--====== Magnific Popup js ======-->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+
+    <!--====== wow js ======-->
+    <script src="assets/js/wow.min.js"></script>
+
+    <!--====== Particles js ======-->
+    <script src="assets/js/particles.min.js"></script>
+
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
